@@ -1,40 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>GuideMe</title>
+    <style>
+        .top {
+            /* The image used */
+            background-image: url("https://d1edzrgaei4psf.cloudfront.net/newHome/Hero_web-min.jpeg");
+            /* Full height */
+            height: 400px;
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .col-3 {
+            border: 2px solid black;
+            margin-left: 45px;
+            margin-right: 45px;
+            border-radius: 10px;
+            background-color: lightcyan;
+            height: 380px;
+            font-family: cursive;
+        }
+        
+        .row {
+            padding-top: 70px;
+        }
+    </style>
 </head>
+
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">SignUp</button>
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">LogIn</button>
-                  </form>
-                </div>
-              </nav>
-              
-    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">GuideMe</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <!-- <a class="nav-link disabled" href="#">Disabled</a>-->
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <button class="btn btn-outline-success my-2 my-sm-0" style="margin-left: 15px" type="submit">Sign Up</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" style="margin-left: 10px" type="submit">Login</button>
+        </div>
+    </nav>
+
+    <main class="top">
+
+
+        <div class="background">
+            yooo
+        </div>
+    </main>
+    <!-- responsive equal width cols, can be sm, md, lg, or xl -->
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <h3 style="padding:10px">Ask your heart out</h3>
+                <p>Have doubts regarding your college?</p>
+                <p>Dont worry!!We got you..</p>
+                <p>A lot of experts are here on this platform just to guide you and make sure you got all your doubts cleared.</p>
+                <p>Just click the chat icon below and you will be there!</p>
+            </div>
+            <div class="col-3">1 of 3</div>
+            <div class="col-3">1 of 3</div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
 </body>
+
 </html>
